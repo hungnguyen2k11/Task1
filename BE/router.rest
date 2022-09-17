@@ -1,0 +1,23 @@
+GET http://localhost:8080/user?name=hung
+
+###
+
+POST http://localhost:8080/user/update
+Content-Type: application/json
+
+[
+  {
+    "_id": "6323ee5a5607f4656e79a148",
+    "username": "Hu",
+    "email": "hungnguyen@gmail.com",
+    "birthday": "Sun Jul 15 2001 00:00:00 GMT+0700 (Indochina Time)",
+    "__v": 0
+  },
+  {
+    "_id": "6323f466b563c7423236b1d6",
+    "username": "Hello",
+    "email": "hellonguyen@gmail.com",
+    "birthday": "Sun Jul 15 2001 00:00:00 GMT+0700 (Indochina Time)",
+    "__v": 0
+  }
+]
